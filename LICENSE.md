@@ -15,7 +15,7 @@ NonCommercial — You may not use the material for commercial purposes .
 ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
 No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
-REFERENCE
+REFERENCE:
 The toolbox is freeware and may be used if proper reference is given to the authors, preferably refer to the following paper:
 A mass defect-based approach for the automatic construction of peak lists for databases of mass spectra with limited resolution. Application to ToF-SIMS data
 
