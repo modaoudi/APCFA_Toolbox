@@ -93,7 +93,7 @@ for c = 0 : maxC
     if c == 0
         for h = 1 : 2*c + 2
             M = H*h + B*b + C*c + C13*c13 + N*n + N15*n15 + O*o + F*f + Na*na + Al*al + Si*si + Si29*si29 + Si30*si30 + P*p + S*s + Cl*cl + Cl37*cl37 +...
-                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*ti + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs - el;
+                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*ti + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs + el;
             iamu = round(M);
             if iamu < maxAmu & iamu > 0
 
@@ -105,7 +105,7 @@ for c = 0 : maxC
     else
         for h = 0 : 2*c + 2
             M = H*h + B*b + C*c + C13*c13 + N*n + N15*n15 + O*o + F*f + Na*na + Al*al + Si*si + Si29*si29 + Si30*si30 + P*p + S*s + Cl*cl + Cl37*cl37 +...
-                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*ti + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs - el;
+                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*ti + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs + el;
             iamu = round(M);
             if iamu < maxAmu & iamu > 0
 
@@ -157,7 +157,7 @@ for c13 = 2 : maxC
   
     for h = 4 : 2*c13 + 2
         M = H*h + B*b + C*(c13-1) + C13*1 + N*n + N15*n15 + O*o + F*f + Na*na + Al*al + Si*si + Si29*si29 + Si30*si30 + P*p + S*s + Cl*cl + Cl37*cl37 +...
-                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*ti + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs - el;
+                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*ti + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs + el;
         iamu = round(M);
         if iamu < maxAmu & iamu > 0
 
@@ -210,7 +210,7 @@ for c = 0 : maxC
         for h = 1 : 2*c
             for o = 1 : maxO
                 M = H*h + B*b + C*c + C13*c13 + N*n + N15*n15 + O*o + F*f + Na*na + Al*al + Si*si + Si29*si29 + Si30*si30 + P*p + S*s + Cl*cl + Cl37*cl37 +...
-                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*ti + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs - el;
+                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*ti + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs + el;
                 iamu = round(M);
                 if iamu < maxAmu & iamu > 0
 
@@ -223,7 +223,7 @@ for c = 0 : maxC
         for h = 0 : 2*c
             for o = 1 : maxO
                 M = H*h + B*b + C*c + C13*c13 + N*n + N15*n15 + O*o + F*f + Na*na + Al*al + Si*si + Si29*si29 + Si30*si30 + P*p + S*s + Cl*cl + Cl37*cl37 +...
-                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*ti + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs - el;
+                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*ti + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs + el;
                 iamu = round(M);
                 if iamu < maxAmu & iamu > 0
 
@@ -277,7 +277,7 @@ for ti46 = 1:maxTi
     for p = 0 : maxP
         for o = 0: 2*ti46 + 2 
             M = H*h + B*b + C*c + C13*c13 + N*n + N15*n15 + O*o + F*f + Na*na + Al*al + Si*si + Si29*si29 + Si30*si30 + P*p + S*s + Cl*cl + Cl37*cl37 +...
-                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*1 + Ti47*ti47 + Ti*(ti46-1) + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs - el;
+                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*1 + Ti47*ti47 + Ti*(ti46-1) + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs + el;
             iamu = round(M);
             if iamu < maxAmu & iamu > 0
 
@@ -328,7 +328,7 @@ for ti47 = 1:maxTi
     for p = 0 : maxP
         for o = 0: 2*ti47 + 2 
             M = H*h + B*b + C*c + C13*c13 + N*n + N15*n15 + O*o + F*f + Na*na + Al*al + Si*si + Si29*si29 + Si30*si30 + P*p + S*s + Cl*cl + Cl37*cl37 +...
-                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*1 + Ti*(ti47-1) + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs - el;
+                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*1 + Ti*(ti47-1) + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs + el;
             iamu = round(M);
             if iamu < maxAmu & iamu > 0
 
@@ -379,7 +379,7 @@ for ti = 1:maxTi
     for p = 0 : maxP
         for o = 0: 2*ti + 2 
             M = H*h + B*b + C*c + C13*c13 + N*n + N15*n15 + O*o + F*f + Na*na + Al*al + Si*si + Si29*si29 + Si30*si30 + P*p + S*s + Cl*cl + Cl37*cl37 +...
-                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*ti + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs - el;
+                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*ti + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs + el;
             iamu = round(M);
             if iamu < maxAmu & iamu > 0
 
@@ -430,7 +430,7 @@ for ti49 = 1:maxTi
     for p = 0 : maxP
         for o = 0: 2*ti49 + 2 
             M = H*h + B*b + C*c + C13*c13 + N*n + N15*n15 + O*o + F*f + Na*na + Al*al + Si*si + Si29*si29 + Si30*si30 + P*p + S*s + Cl*cl + Cl37*cl37 +...
-                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*(ti49-1) + Ti49*1 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs - el;
+                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*(ti49-1) + Ti49*1 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs + el;
             iamu = round(M);
             if iamu < maxAmu & iamu > 0
 
@@ -481,7 +481,7 @@ for ti50 = 1:maxTi
     for p = 0 : maxP
         for o = 0: 2*ti50 + 2 
             M = H*h + B*b + C*c + C13*c13 + N*n + N15*n15 + O*o + F*f + Na*na + Al*al + Si*si + Si29*si29 + Si30*si30 + P*p + S*s + Cl*cl + Cl37*cl37 +...
-                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*(ti50-1) + Ti49*ti49 + Ti50*1 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs - el;
+                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*(ti50-1) + Ti49*ti49 + Ti50*1 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs + el;
             iamu = round(M);
             if iamu < maxAmu & iamu > 0
 
@@ -532,7 +532,7 @@ for ti46 = 1:maxTi
     for o = 1 : 2*ti46 + 2 
         for h = 0 : 2*ti46 - 2 
             M = H*h + B*b + C*c + C13*c13 + N*n + N15*n15 + O*o + F*f + Na*na + Al*al + Si*si + Si29*si29 + Si30*si30 + P*p + S*s + Cl*cl + Cl37*cl37 +...
-                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*1 + Ti47*ti47 + Ti*(ti46-1) + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs - el;
+                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*1 + Ti47*ti47 + Ti*(ti46-1) + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs + el;
             iamu = round(M);
             if iamu < maxAmu & iamu > 0
 
@@ -583,7 +583,7 @@ for ti47 = 1:maxTi
     for o = 1 : 2*ti47 + 2 
         for h = 0 : 2*ti47 - 2 
             M = H*h + B*b + C*c + C13*c13 + N*n + N15*n15 + O*o + F*f + Na*na + Al*al + Si*si + Si29*si29 + Si30*si30 + P*p + S*s + Cl*cl + Cl37*cl37 +...
-                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*1 + Ti*(ti47-1) + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs - el;
+                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*1 + Ti*(ti47-1) + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs + el;
             iamu = round(M);
             if iamu < maxAmu & iamu > 0
 
@@ -634,7 +634,7 @@ for ti = 1:maxTi
     for o = 1 : 2*ti + 2 
         for h = 0 : 2*ti - 2 
             M = H*h + B*b + C*c + C13*c13 + N*n + N15*n15 + O*o + F*f + Na*na + Al*al + Si*si + Si29*si29 + Si30*si30 + P*p + S*s + Cl*cl + Cl37*cl37 +...
-                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*ti + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs - el;
+                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*ti + Ti49*ti49 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs + el;
             iamu = round(M);
             if iamu < maxAmu & iamu > 0
 
@@ -685,7 +685,7 @@ for ti49 = 1:maxTi
     for o = 1 : 2*ti49 + 2 
         for h = 0 : 2*ti49 - 2 
             M = H*h + B*b + C*c + C13*c13 + N*n + N15*n15 + O*o + F*f + Na*na + Al*al + Si*si + Si29*si29 + Si30*si30 + P*p + S*s + Cl*cl + Cl37*cl37 +...
-                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*(ti49-1) + Ti49*1 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs - el;
+                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*(ti49-1) + Ti49*1 + Ti50*ti50 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs + el;
             iamu = round(M);
             if iamu < maxAmu & iamu > 0
 
@@ -736,7 +736,7 @@ for ti50 = 1:maxTi
     for o = 1 : 2*ti50 + 2 
         for h = 0 : 2*ti50 - 2 
             M = H*h + B*b + C*c + C13*c13 + N*n + N15*n15 + O*o + F*f + Na*na + Al*al + Si*si + Si29*si29 + Si30*si30 + P*p + S*s + Cl*cl + Cl37*cl37 +...
-                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*(ti50-1) + Ti49*ti49 + Ti50*1 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs - el;
+                K*k + k41*k41 + Ca*ca + Ca42*ca42 + Ca44*ca44 + Ti46*ti46 + Ti47*ti47 + Ti*(ti50-1) + Ti49*ti49 + Ti50*1 + Cr*cr + Fe*fe + Fe58*fe58 + Cu*cu + Cu65*cu65 + Cs*cs + el;
             iamu = round(M);
             if iamu < maxAmu & iamu > 0
 
