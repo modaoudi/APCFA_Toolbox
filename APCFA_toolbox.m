@@ -23,8 +23,8 @@
 %
 % REFERENCE:
 % The toolbox is freeware and may be used if proper reference is given to the authors, preferably refer to the following paper:
-% A mass defect-based approach for the automatic construction of peak lists for databases of mass spectra with limited resolution. Application to ToF-SIMS data
-%  https://doi.org/10.1002/rcm.9777
+% A mass defect–based approach for the automatic construction of peak lists for databases of mass spectra with limited resolution: Application to time-of-flight secondary ion mass spectrometry data
+% https://doi.org/10.1002/rcm.9777
 %
 % By M. DAOUDI(1,2), N. NUNS(3), P. SCHIFFMANN(2), A.FROBERT(2), B.
 % HANOUNE(1), P. DESGROUX(1), A. FACCINETTO(1)
